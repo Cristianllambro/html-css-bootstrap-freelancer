@@ -1,17 +1,30 @@
 :root{
-    --color-white: #fff;
+    --white: #fff;
     --gray-dark: #424242;
     --gray-light: #616f7b;
     --aqua: #1abc9c;
+    --light-blue: #3a546d;
+    --dark-blue: #2c3e50;
 }
 
 .header-menu{
     background-color: #2c3e50;
-    color: var(--color-white);
+    color: var(--white);
 }
 
-.under-header{
+.color-aqua{
     background-color: var(--aqua);
+    color: var(--white);
+}
+
+.color-blue{
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
+.color-dark-blue{
+    background-color: var(--dark-blue);
+    color: var(--white);
 }
 
 .col-md-6{
