@@ -49,6 +49,39 @@
     border-radius: 2px;
 }
 
-.rounded-4{
-    border-radius: .7rem!important;
+.item .rounded-4{
+    border-top-left-radius: .7rem;
+    border-top-right-radius: .7rem;
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: .8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.circle-two{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: .8rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+}
+
+.circle-three{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: .9rem;
+}
+.aqua{
+    color: var(--aqua);
+}
+
+.foot{
+    height: 100px;
+    vertical-align: middle;
 }
