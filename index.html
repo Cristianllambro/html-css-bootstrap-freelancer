@@ -24,18 +24,18 @@
                     <a href="#!" class="text-start text-uppercase text-decoration-none white">start bootstrap</a>
                 </div>
                 
-                <div class="col-4 col-md-6 text-end ">
+                <div class="col-4 col-md-6 text-end d-flex justify-content-end align-items-center ">
                     <div class="hamburger d-md-none">
                         <i class="bi bi-list white"></i>
                     </div>
 
-                    <nav class="d-none d-md-block d-flex align-items-center align-items-end">
+                    <div class="d-none d-md-block align-middle ">
                         <ul class="list-inline ">
                             <li class="list-inline-item"><a href="#!" class="text-decoration-none text-uppercase white">portfolio</a></li>
                             <li class="list-inline-item"><a href="#!" class="text-decoration-none text-uppercase white">about</a></li>
                             <li class="list-inline-item"><a href="#!" class="text-decoration-none text-uppercase white">contact</a></li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
                 
             </div>
@@ -61,7 +61,7 @@
                     <div class="line align-middle"></div>
                 </div>
 
-                <div class="col-12 text-uppercase py-2">
+                <div class="col-12 text-uppercase py-2 pb-4">
                     <p>grafic artist - web designer - illustrator</p>
                 </div>
             </div>
@@ -85,30 +85,30 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row port">
 
-                <div class="col-12 col-md-6 col-lg-4 pb-3 item">
-                    <img src="img/cabin.png" alt="img cabin forest" class="card-img rounded-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-3 item">
+                    <img src="img/cabin.png" alt="img cabin forest" class="img-fluid rounded-4 img-sec">
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 pb-3 item">
-                    <img src="img/cake.png" alt="img cake" class="card-img rounded-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-3 item">
+                    <img src="img/cake.png" alt="img cake" class="img-fluid rounded-4">
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 pb-3 item">
-                    <img src="img/circus.png" alt="img circus" class="card-img rounded-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-3 item">
+                    <img src="img/circus.png" alt="img circus" class="img-fluid rounded-4">
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 pb-3 item">
-                    <img src="img/game.png" alt="img controller game" class="card-img rounded-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-3 item">
+                    <img src="img/game.png" alt="img controller game" class="img-fluid rounded-4">
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 pb-3 item">
-                    <img src="img/safe.png" alt="img safe-strongbox " class="card-img rounded-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-3 item">
+                    <img src="img/safe.png" alt="img safe-strongbox " class="img-fluid rounded-4">
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 pb-5 item">
-                    <img src="img/submarine.png" alt="img submarine" class="card-img rounded-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 item">
+                    <img src="img/submarine.png" alt="img submarine" class="img-fluid rounded-4">
                 </div>
 
             </div>
@@ -136,9 +136,9 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-8 col-md-6 col-lg-6 text-center pb-3">Freelancer is a free bootstrap theme create by Start Bootstrap. The download includes the source files HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</div>
+                <div class="offset-1 col-sm-8 col-md-5 pb-3">Freelancer is a free bootstrap theme create by Start Bootstrap. The download includes the source files HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</div>
 
-                <div class="col-sm-8 col-md-6 col-lg-6 text-center pb-5">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
+                <div class="offset-1 col-sm-8 col-md-5 pb-5">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
             </div>
             
             <div class="row">
@@ -174,8 +174,8 @@
     
                 <form>
                     <div class="offset-2 col-8 mb-3 ">
-                        <label for="exampleInputEmail1" class="form-label ">Name</label>
-                        <input type="email" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="Name" class="form-label ">Name</label>
+                        <input type="name" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="Name" aria-describedby="emailHelp">
                     </div>
 
                     <div class="offset-2 col-8 mb-3 ">
@@ -185,16 +185,14 @@
                     </div>
 
                     <div class="offset-2 col-8 mb-3 ">
-                        <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-                        <input type="email" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="phone-number" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="phone-number" aria-describedby="emailHelp">
                     </div>
 
                     <div class="offset-2 col-8 form-floating ">
                         <textarea class="form-control border-top-0 border-start-0 border-end-0 rounded-0" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                         <label for="floatingTextarea2">Message</label>
-                      </div>
-
-
+                    </div>
 
                 </form>
     

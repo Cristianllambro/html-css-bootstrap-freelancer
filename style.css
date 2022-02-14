@@ -31,6 +31,10 @@
     color: var(--white);
 }
 
+header a:hover{
+    color: var(--aqua);
+}
+
 .img-avatar{
     width: 200px;
     padding-top: 5rem;
@@ -55,6 +59,37 @@
     border-top-right-radius: .7rem;
     border-bottom-left-radius: .7rem;
     border-bottom-right-radius: .7rem;
+}
+
+.port .item{
+    position: relative;
+}
+
+.port .item::after{
+    content: "\F4FE";
+    font-family: bootstrap-icon;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    color: transparent;
+    background-color: rgba(26,188,156, 0);
+    transition: all 1s;
+}
+
+.port .item:hover::after{
+    color: var(--white);
+    background-color: rgba(26,188,156, .6);
 }
 
 .circle{
